@@ -1,0 +1,4 @@
+﻿  Testing.cpp
+g:\documents\code\lab2\library\binary_search_by_sorted-sequence.h(109): warning C4715: 'Search1::SortedSequence<int,int>::search': not all control paths return a value
+g:\documents\code\lab2\library\hashtable.h(120): warning C4715: 'Search3::HashTable<int,int>::get': not all control paths return a value
+  Testing.vcxproj -> G:\Documents\Code\Lab2\Debug\Testing.exe

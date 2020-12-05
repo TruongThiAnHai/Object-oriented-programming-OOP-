@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lab2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  App1.cpp
+g:\documents\code\lab2\library\hashtable.h(120): warning C4715: 'Search3::HashTable<int,prog::Student>::get': not all control paths return a value
+g:\documents\code\lab2\library\binary_search_by_sorted-sequence.h(109): warning C4715: 'Search1::SortedSequence<int,prog::Student>::search': not all control paths return a value
+g:\documents\code\lab2\library\binary_search_by_sorted-sequence.h(109): warning C4715: 'Search1::SortedSequence<int,int>::search': not all control paths return a value
+g:\documents\code\lab2\library\hashtable.h(120): warning C4715: 'Search3::HashTable<int,int>::get': not all control paths return a value
+  Lab2.vcxproj -> G:\Documents\Code\Lab2\Debug\Main.exe
