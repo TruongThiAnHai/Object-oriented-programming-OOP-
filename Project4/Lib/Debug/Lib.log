@@ -1,0 +1,71 @@
+﻿  stdafx.cpp
+  Book.cpp
+  EducationalBook.cpp
+  Library.cpp
+g:\documents\code\project4\lib\library.cpp(14): error C2039: 'Library': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(14): error C2143: syntax error: missing ',' before '&'
+g:\documents\code\project4\lib\library.cpp(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(16): error C2065: 'L': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(20): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(22): warning C4508: 'Lib::Library': function should return a value; 'void' return type assumed
+g:\documents\code\project4\lib\library.cpp(23): error C2523: 'Library::~Library': destructor tag mismatch
+g:\documents\code\project4\lib\library.cpp(23): error C2039: 'Library': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(26): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(31): warning C4508: 'Lib::Library': function should return a value; 'void' return type assumed
+g:\documents\code\project4\lib\library.cpp(32): error C2039: 'Library': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(32): error C2065: 'L': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(32): warning C4551: function call missing argument list
+g:\documents\code\project4\lib\library.cpp(32): error C2563: mismatch in formal parameter list
+g:\documents\code\project4\lib\library.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(32): error C2365: 'Lib::Library': redefinition; previous definition was 'function'
+g:\documents\code\project4\lib\library.cpp(33): error C2448: 'Lib::Library': function-style initializer appears to be a function definition
+g:\documents\code\project4\lib\library.cpp(47): error C2143: syntax error: missing ';' before '&'
+g:\documents\code\project4\lib\library.cpp(47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(47): error C2365: 'Lib::Library': redefinition; previous definition was 'function'
+g:\documents\code\project4\lib\library.cpp(47): error C2039: '=': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(47): error C2143: syntax error: missing ',' before '&'
+g:\documents\code\project4\lib\library.cpp(48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(48): error C2059: syntax error: '{'
+g:\documents\code\project4\lib\library.cpp(48): error C2143: syntax error: missing ';' before '{'
+g:\documents\code\project4\lib\library.cpp(48): error C2447: '{': missing function header (old-style formal list?)
+g:\documents\code\project4\lib\library.cpp(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+g:\documents\code\project4\lib\library.cpp(69): error C2143: syntax error: missing ',' before '&'
+g:\documents\code\project4\lib\library.cpp(71): error C2065: 'lib': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(75): error C2593: 'operator <<' is ambiguous
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\ostream(295): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  g:\documents\code\project4\lib\library.cpp(69): note: or       'std::ostream &Lib::operator <<(std::ostream &,const int)'
+  g:\documents\code\project4\lib\library.cpp(75): note: while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, _Ty1)'
+          with
+          [
+              _Ty1=int
+          ]
+g:\documents\code\project4\lib\library.cpp(81): error C2039: 'insert': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(84): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(85): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(87): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(94): error C2039: 'getBook': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(96): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(97): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(101): error C2039: 'deleteBook': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(103): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(104): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(109): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(114): error C2039: 'changeAmount': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(116): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(117): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(125): error C2039: 'replaceBook': is not a member of 'Library'
+  g:\documents\code\project4\lib\book.h(9): note: see declaration of 'Library'
+g:\documents\code\project4\lib\library.cpp(127): error C2065: 'book': undeclared identifier
+g:\documents\code\project4\lib\library.cpp(128): error C2065: 'book': undeclared identifier
+  ScientificBook.cpp
+  Generating Code...
